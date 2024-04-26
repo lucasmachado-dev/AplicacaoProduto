@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AplicProduto.Api</name>
+    </assembly>
+    <members>
+        <member name="M:AplicProduto.Api.Controllers.AplicacaoController.ObterAplicacoes">
+            <summary>
+            Buscar aplicações
+            </summary>
+        </member>
+        <member name="M:AplicProduto.Api.Controllers.AplicacaoController.ObterAplicacaoPorId(System.Guid)">
+            <summary>
+            Buscar uma aplicação pelo ID
+            </summary>
+            <param name="id">ID da aplicação que deseja buscar.</param>
+        </member>
+        <member name="M:AplicProduto.Api.Controllers.AplicacaoController.Adicionar(AplicProduto.Business.Models.AplicacaoViewModel)">
+            <summary>
+            Criar uma nova aplicação
+            </summary>
+        </member>
+        <member name="M:AplicProduto.Api.Controllers.AplicacaoController.Atualizar(AplicProduto.Business.Models.AplicacaoViewModel,System.Guid)">
+            <summary>
+            Alterar uma aplicação
+            </summary>
+            <param name="id">ID da aplicação que deseja alterar.</param>
+            <param name="aplicacaoViewModel">Objeto com os dados da Aplicação.</param>
+        </member>
+        <member name="M:AplicProduto.Api.Controllers.AplicacaoController.Deletar(System.Guid)">
+            <summary>
+            Deletar uma aplicação
+            </summary>
+            <param name="id">ID da aplicação que deseja deletar.</param>
+        </member>
+    </members>
+</doc>
